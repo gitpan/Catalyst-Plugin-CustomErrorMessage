@@ -1,0 +1,10 @@
+Changes
+Makefile.PL
+MANIFEST
+README
+t/00-distribution.t
+t/00-signature.t
+t/01-Catalyst-Plugin-CustomErrorMessage.t
+lib/Catalyst/Plugin/CustomErrorMessage.pm
+META.yml                                 Module meta-data (added by MakeMaker)
+SIGNATURE                                Public-key signature (added by MakeMaker)
