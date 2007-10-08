@@ -14,19 +14,19 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 2cd702ac07fa45eccfbb48798c396510c9a31374 Changes
+SHA1 39ad7d7346515e9725cd63fc6b9b59c9df7b54cd Changes
 SHA1 06fc3913d756945d46a29109ae19557203fe8671 MANIFEST
-SHA1 28dce698669a00d386865cdfff8779af33d29256 META.yml
-SHA1 a8ef0bf7a62ccb776411b04cbfdf20911084db0d Makefile.PL
+SHA1 78bbd5045c11b17d8f4b951753f27d35ba1f6985 META.yml
+SHA1 497eebe8d826cb1aef2750fde046d4a8fa26eb55 Makefile.PL
 SHA1 de922a170c3ce2ddd07f29d0970eb3a7a6d22c18 README
-SHA1 2a104e8d7ffc376c9d3b99889e7a2d419b72a96d lib/Catalyst/Plugin/CustomErrorMessage.pm
+SHA1 fa9de70b797a2db89087955d4e318d48c0147a1d lib/Catalyst/Plugin/CustomErrorMessage.pm
 SHA1 41533fbd463e42d2ecf1e119eca910c16809d13e t/00-distribution.t
 SHA1 4aeb184c9bed26ab6c3be1ebdb8470c0cb353b1f t/00-signature.t
-SHA1 4d12eb1e444fcd1a914465308bedfde0f6bc8600 t/01-Catalyst-Plugin-CustomErrorMessage.t
+SHA1 e41a592e6c1153e9145f696c0a7e9c2496bbc41e t/01-Catalyst-Plugin-CustomErrorMessage.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.6 (GNU/Linux)
 
-iD8DBQFHBjhSuzJBASXpqvsRAoyeAJwNJy2YMhpZaVSYSEiWjptUvdAr1wCcDrep
-3Eu+I35EFC6nlqih7FRnRRw=
-=4EM9
+iD8DBQFHCfEYuzJBASXpqvsRAmGZAJ9YKyAqibGcBeVWFiV2WS/Rvn1+zQCcCtq5
+yN0csmMIxz6z0RSiblgkfOE=
+=kRL6
 -----END PGP SIGNATURE-----
