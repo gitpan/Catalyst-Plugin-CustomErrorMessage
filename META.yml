@@ -1,19 +1,20 @@
---- #YAML:1.0
-name:                Catalyst-Plugin-CustomErrorMessage
-version:             0.03_01
-abstract:            Catalyst plugin to have more "cute" error message.
-license:             ~
-author:              
-    - Jozef Kutej <jozef@kutej.net>
-generated_by:        ExtUtils::MakeMaker version 6.42
-distribution_type:   module
-requires:     
-    Carp::Clan:                    0
-    Class::Data::Inheritable:      0
-    HTML::Entities:                0
-    NEXT:                          0
-    Test::More:                    0
-    URI::Escape:                   0
+---
+name: Catalyst-Plugin-CustomErrorMessage
+version: 0.03_02
+author:
+  - 'Jozef Kutej <jozef@kutej.net>'
+abstract: Catalyst plugin to have more "cute" error message.
+license: perl
+resources:
+  license: http://dev.perl.org/licenses/
+build_requires:
+  Class::Accessor::Fast: 0
+  Test::More: 0
+provides:
+  Catalyst::Plugin::CustomErrorMessage:
+    file: lib/Catalyst/Plugin/CustomErrorMessage.pm
+    version: 0.03_02
+generated_by: Module::Build version 0.280801
 meta-spec:
-    url:     http://module-build.sourceforge.net/META-spec-v1.3.html
-    version: 1.3
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2
