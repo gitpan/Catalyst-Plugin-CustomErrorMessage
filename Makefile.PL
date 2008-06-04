@@ -5,8 +5,13 @@ WriteMakefile
           'NAME' => 'Catalyst::Plugin::CustomErrorMessage',
           'VERSION_FROM' => 'lib/Catalyst/Plugin/CustomErrorMessage.pm',
           'PREREQ_PM' => {
+                           'Carp::Clan' => 0,
                            'Class::Accessor::Fast' => 0,
-                           'Test::More' => 0
+                           'Class::Data::Inheritable' => 0,
+                           'HTML::Entities' => 0,
+                           'NEXT' => 0,
+                           'Test::More' => 0,
+                           'URI::Escape' => 0
                          },
           'INSTALLDIRS' => 'site',
           'EXE_FILES' => [],

@@ -1,19 +1,25 @@
 ---
 name: Catalyst-Plugin-CustomErrorMessage
-version: 0.03_02
+version: 0.03_03
 author:
   - 'Jozef Kutej <jozef@kutej.net>'
 abstract: Catalyst plugin to have more "cute" error message.
 license: perl
 resources:
   license: http://dev.perl.org/licenses/
+requires:
+  Class::Data::Inheritable: 0
+  HTML::Entities: 0
+  NEXT: 0
+  URI::Escape: 0
 build_requires:
+  Carp::Clan: 0
   Class::Accessor::Fast: 0
   Test::More: 0
 provides:
   Catalyst::Plugin::CustomErrorMessage:
     file: lib/Catalyst/Plugin/CustomErrorMessage.pm
-    version: 0.03_02
+    version: 0.03_03
 generated_by: Module::Build version 0.280801
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html
