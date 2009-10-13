@@ -4,13 +4,13 @@ NAME
 
 SYNOPSIS
             use Catalyst qw( CustomErrorMessage );
-            
-        # optional (values in this example are the defaults)
-            __PACKAGE__->config->{'custom-error-messsage'}->{'uri-for-not-found'} = '/';
-            __PACKAGE__->config->{'custom-error-messsage'}->{'error-template'}    = 'error.tt2';
-            __PACKAGE__->config->{'custom-error-messsage'}->{'content-type'}      = 'text/html; charset=utf-8';
-            __PACKAGE__->config->{'custom-error-messsage'}->{'view-name'}         = 'TT';
-            __PACKAGE__->config->{'custom-error-messsage'}->{'response-status'}   = 500;
+        
+            # optional (values in this example are the defaults)
+            __PACKAGE__->config->{'custom-error-message'}->{'uri-for-not-found'} = '/';
+            __PACKAGE__->config->{'custom-error-message'}->{'error-template'}    = 'error.tt2';
+            __PACKAGE__->config->{'custom-error-message'}->{'content-type'}      = 'text/html; charset=utf-8';
+            __PACKAGE__->config->{'custom-error-message'}->{'view-name'}         = 'TT';
+            __PACKAGE__->config->{'custom-error-message'}->{'response-status'}   = 500;
 
 DESCRIPTION
     You can use this module if you want to get rid of:
@@ -29,13 +29,14 @@ DESCRIPTION
 
 FUNCTIONS
   finalize_error
+
     In debug mode this function is skipped and user sees the original
     Catalyst error page in debug mode.
 
     In "production" (non debug) mode it will return page with template set
     in
 
-            $c->config->{'custom-error-messsage'}->{'error-template'}
+            $c->config->{'custom-error-message'}->{'error-template'}
             ||
             'error.tt2'
 
@@ -45,7 +46,7 @@ FUNCTIONS
     redirect to
 
             $c->uri_for(
-                    $c->config->{'custom-error-messsage'}->{'uri-for-not-found'}
+                    $c->config->{'custom-error-message'}->{'uri-for-not-found'}
                     ||
                     '/'
             )
@@ -54,12 +55,12 @@ FUNCTIONS
 
     To set different view name configure:
 
-            $c->config->{'custom-error-messsage'}->{'view-name'} = 'Mason';
+            $c->config->{'custom-error-message'}->{'view-name'} = 'Mason';
 
     Content-type and response status can be configured via:
 
-            $c->config->{'custom-error-messsage'}->{'content-type'}    = 'text/plain; charset=utf-8';
-            $c->config->{'custom-error-messsage'}->{'response-status'} = 500;
+            $c->config->{'custom-error-message'}->{'content-type'}    = 'text/plain; charset=utf-8';
+            $c->config->{'custom-error-message'}->{'response-status'} = 500;
 
 AUTHOR
     Jozef Kutej - <jozef@kutej.net>
