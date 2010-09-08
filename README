@@ -29,7 +29,6 @@ DESCRIPTION
 
 FUNCTIONS
   finalize_error
-
     In debug mode this function is skipped and user sees the original
     Catalyst error page in debug mode.
 
@@ -63,10 +62,7 @@ FUNCTIONS
             $c->config->{'custom-error-message'}->{'response-status'} = 500;
 
 AUTHOR
-    Jozef Kutej - <jozef@kutej.net>
-
-TODO
-    More universal? Looking forward for your suggestions.
+    Jozef Kutej - <jkutej@cpan.org>
 
 COPYRIGHT AND LICENSE
     Copyright (C) 2006 by Jozef Kutej

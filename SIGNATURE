@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.55.
+signed via the Module::Signature module, version 0.63.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -14,22 +14,21 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 abbcdee77ad7424d0d10d6f6a88e9e677c2c7250 Build.PL
-SHA1 bf5ba493ae29779d114dbc972db1aa4805dfc8ac Changes
-SHA1 97b814b1e26fbff101e8e5e1d98c3aa991a1b4a8 MANIFEST
-SHA1 4c834945ae365bb475ff50834e19cc0438f5b3c5 META.yml
-SHA1 57fea6342d15a2f53e4ed7ba556f64273c18db1c Makefile.PL
-SHA1 44738a643ed7e92af050ee58373f1ed014704ead README
-SHA1 519dabfc06a6bcc3b342e5c43e3e123a74e88a23 lib/Catalyst/Plugin/CustomErrorMessage.pm
+SHA1 1333c39593e8c966b8d9500a3ea14938d597a99a Build.PL
+SHA1 36b5f8837e39f2c808216704a3cf161da1ce3388 Changes
+SHA1 10b96b8e8b56b0fb54f1701507b6c3c9baee8fc6 MANIFEST
+SHA1 d672ecd8e433c20bc20fc8b851e88b583327e6ea META.yml
+SHA1 8a0f1f9505bbab904a5078c5d5fc2d62cb8a5b11 Makefile.PL
+SHA1 7de54986af9d60c2212b49b396dc461c11d433cc README
+SHA1 9480a4f96db08e1679b059aea47425fef5044099 lib/Catalyst/Plugin/CustomErrorMessage.pm
 SHA1 41533fbd463e42d2ecf1e119eca910c16809d13e t/00-distribution.t
-SHA1 4aeb184c9bed26ab6c3be1ebdb8470c0cb353b1f t/00-signature.t
-SHA1 600ae156f6f69bc8561770087696510933227c5e t/01-Catalyst-Plugin-CustomErrorMessage.t
+SHA1 f9a6fb50ca0e707801920c5e04f9643f7bc79c34 t/01-Catalyst-Plugin-CustomErrorMessage.t
 SHA1 0b1c5a2d59be6bfa7d60c64cd964fea6a0331705 t/pod-coverage.t
 SHA1 640935336dc1123c0069bcf5432bcaedc2cf22d3 t/pod.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.10 (GNU/Linux)
 
-iEYEARECAAYFAkrUojkACgkQC0OgUPgL2SdfggCfVfvPBwhiHgJ/1YGFFcGNvmoc
-rhEAoILf/jOSwR/A9i6wKTToYQoYQiyq
-=UHDz
+iEYEARECAAYFAkyHfjsACgkQC0OgUPgL2SeLFQCeMmURdhQ6RPagELWWG5r/8HJJ
+XmIAnRSIDv3V+74yVnYLMYdaw9LHFcuJ
+=Rd/p
 -----END PGP SIGNATURE-----
